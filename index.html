@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>MikroBot Pro X — ULTIMATE</title>
+<link rel="stylesheet" href="/assets/app.css">
+</head>
+<body>
+<header>
+  <div class="brand"><span>🤖</span><div><strong>MikroBot Pro X</strong><small>ULTIMATE • CORE INTEGRADO</small></div></div>
+  <div class="live"><i></i> CORE ONLINE</div>
+</header>
+
+<nav>
+  <button class="active" data-tab="dashboard">👑 Supremo</button>
+  <button data-tab="diagnostico">🔎 Analisar</button>
+  <button data-tab="rede">📡 Rede</button>
+  <button data-tab="relatorio">📊 Relatório</button>
+  <button data-tab="auditoria">🧰 Auditor</button>
+</nav>
+
+<main>
+<section id="dashboard" class="tab active">
+  <div class="hero">
+    <div><span class="eyebrow">CENTRAL OPERACIONAL</span>
+    <h1>MikroBot Pro X</h1>
+    <p>Python como cérebro, interface web como corpo e módulos especializados trabalhando juntos.</p></div>
+    <div class="score"><b id="score">100</b><small>CORE</small></div>
+  </div>
+
+  <div class="grid">
+    <article class="card"><span>🧠</span><b>Python Core</b><small id="python">Conectando…</small></article>
+    <article class="card"><span>📡</span><b>Conectividade</b><small id="net">Verificando…</small></article>
+    <article class="card"><span>⚙️</span><b>Motor</b><small>Integrado</small></article>
+    <article class="card"><span>💾</span><b>Banco</b><small>SQLite local</small></article>
+  </div>
+
+  <div class="panel">
+    <h2>⚡ Controle rápido</h2>
+    <div class="actions">
+      <button class="primary" id="btnDiag">🔎 EXECUTAR DIAGNÓSTICO</button>
+      <button id="btnStatus">📡 ATUALIZAR STATUS</button>
+      <button id="btnPing">🌐 TESTAR INTERNET</button>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>📟 Console em tempo real</h2>
+    <pre id="console">Aguardando conexão com o Core…</pre>
+  </div>
+</section>
+
+<section id="diagnostico" class="tab">
+  <div class="panel"><h2>🔎 Diagnóstico inteligente</h2>
+  <p>Execute uma análise e acompanhe o resultado no console.</p>
+  <button class="primary" id="btnDiag2">EXECUTAR ANÁLISE</button>
+  <div id="result" class="result">Nenhum diagnóstico executado.</div></div>
+</section>
+
+<section id="rede" class="tab">
+  <div class="panel"><h2>📡 Rede</h2><div class="grid">
+  <article class="card"><b>Conexão</b><small id="net2">Verificando…</small></article>
+  <article class="card"><b>Servidor</b><small>0.0.0.0:8765</small></article>
+  </div></div>
+</section>
+
+<section id="relatorio" class="tab">
+  <div class="panel"><h2>📊 Relatório</h2><p>Os resultados das operações aparecem aqui.</p><div id="report" class="result">Pronto.</div></div>
+</section>
+
+<section id="auditoria" class="tab">
+  <div class="panel"><h2>🧰 Auditor</h2><p>Estado do núcleo e integridade básica da aplicação.</p><div class="result">Core Python + WebSocket + SQLite carregados.</div></div>
+</section>
+</main>
+
+<footer>MikroBot Pro X • ULTIMATE • painel responsivo</footer>
+<script src="/assets/app.js"></script>
+</body></html>
